@@ -25,7 +25,7 @@ align-items: center;
 .user-icon {
 width: 40px;
 height: 40px;
-border: 2px solid #000;
+border: 0px solid #000;
 border-radius: 50%;
 display: flex;
 align-items: center;
