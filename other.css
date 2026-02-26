@@ -1,5 +1,5 @@
 body {
-font-family: Arial, sans-serif;
+font-family:'VHS';
 background: #000;
 display: flex;
 justify-content: center;
@@ -42,6 +42,7 @@ height: 35px;
 border: 2px solid #000;
 background: #fff;
 cursor: pointer;
+font-family:'VHS';
 font-size: 18px;
 font-weight: bold;
 }
