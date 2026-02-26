@@ -150,7 +150,7 @@ flex-shrink: 0;
 .preview-icon {
 width: 30px;
 height: 30px;
-border: 2px solid #000;
+border: 0px solid #000;
 border-radius: 50%;
 background: #fff;
 margin-bottom: 10px;
