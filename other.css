@@ -259,3 +259,15 @@ border: 1px solid #000;}
 ::-webkit-scrollbar-thumb {
 background:#000;
 border: 1px solid #000;}
+.card, .content-container {
+background-color: transparent !important;
+color: black !important;
+margin-right: auto !important;
+margin-left: auto !important;
+position: relative;
+justify-content: center;
+text-align: justify;
+}
+.flex .flex-col {
+display: none;
+}
