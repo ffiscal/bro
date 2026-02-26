@@ -258,7 +258,8 @@ background:#fff;
 border: 1px solid #000;}
 ::-webkit-scrollbar-thumb {
 background:#000;
-border: 1px solid #000;}
+border: 1px solid #000;
+}
 .card, .content-container {
 background-color: transparent !important;
 color: black !important;
@@ -270,4 +271,30 @@ text-align: justify;
 }
 .flex .flex-col {
 display: none;
+}
+.open, .inner, .button, .item {
+font-family: 'VHS';
+color: white !important;
+background: black !important;
+border-color: black !important;
+opacity: 90% !important;
+}
+@font-face {
+src: url(https://files.catbox.moe/qq0qva.ttf);
+font-family: 'VHS';
+    }
+a{
+color: white;
+font-family: 'VHS';
+    }
+p, {
+font-family: 'VHS';
+color: black !important;
+}
+.button, .button:hover{
+background: #000000 !important;
+font-family: 'VHS';
+color: #ffffff !important;
+border: transparent !important;
+border-radius: 8px !important;
 }
