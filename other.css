@@ -1,0 +1,261 @@
+body {
+font-family: Arial, sans-serif;
+background: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 20px;}
+.container {
+width: 100%;
+max-width: 1200px;
+height: 700px;
+background: #fff;
+border: 4px solid #000;
+display: flex;
+flex-direction: column;}
+.top-bar {
+background: #fff;
+border-bottom: 3px solid #000;
+padding: 10px 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.user-icon {
+width: 40px;
+height: 40px;
+border: 2px solid #000;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+}
+.window-controls {
+display: flex;
+gap: 10px;
+}
+.window-btn {
+width: 35px;
+height: 35px;
+border: 2px solid #000;
+background: #fff;
+cursor: pointer;
+font-size: 18px;
+font-weight: bold;
+}
+.main-content {
+display: flex;
+flex: 1;
+overflow: hidden;
+}
+.sidebar {
+width: 280px;
+border-right: 3px solid #000;
+display: flex;
+flex-direction: column;
+background: #fff;
+}
+.profile-section {
+padding: 15px;
+border-bottom: 3px solid #000;
+display: flex;
+align-items: center;
+gap: 10px;}
+.profile-circle {
+width: 35px;
+height: 35px;
+border: 2px solid #000;
+border-radius: 50%;
+background: #fff;
+}
+.profile-name {
+font-size: 18px;
+font-weight: bold;
+}
+.nav-icons {
+padding: 15px;
+border-bottom: 3px solid #000;
+display: flex;
+gap: 15px;
+}
+.nav-icon {
+width: 40px;
+height: 40px;
+border: 2px solid #000;
+background: #fff;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+}
+.friends-section {
+padding: 15px;
+border-bottom: 3px solid #000;
+flex: 1;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+}
+.friends-title {
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.friends-list {
+border: 2px solid #000;
+background: #fff;
+padding: 10px;
+overflow-y: auto;
+flex: 1;
+}
+.friend-item {
+display: flex;
+align-items: center;
+gap: 10px;
+padding: 8px 0;
+font-size: 14px;
+}
+.friend-avatar {
+width: 30px;
+height: 30px;
+border: 2px solid #000;
+border-radius: 50%;
+background: #fff;
+}
+.new-chat-section {
+padding: 15px;
+border-bottom: 3px solid #000;
+}
+.new-chat-btn {
+width: 100%;
+padding: 10px;
+border: 2px solid #000;
+background: #fff;
+font-size: 14px;
+cursor: pointer;
+font-weight: bold;
+}
+.chat-preview {
+padding: 15px;
+flex-shrink: 0;
+}
+.preview-icon {
+width: 30px;
+height: 30px;
+border: 2px solid #000;
+border-radius: 50%;
+background: #fff;
+margin-bottom: 10px;
+}
+.preview-box {
+border: 2px solid #000;
+background: #fff;
+padding: 10px;
+font-size: 12px;
+line-height: 1.5;
+}
+.chat-area {
+flex: 1;
+display: flex;
+flex-direction: column;
+background: #fff;
+}
+.chat-header {
+padding: 15px;
+border-bottom: 3px solid #000;
+background: #fff;
+}
+.chat-messages {
+flex: 1;
+padding: 20px;
+overflow-y: auto;
+background: #fff;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.message {
+display: flex;
+flex-direction: column;
+max-width:70%;
+}
+.message-right {
+align-self: flex-end;
+align-items: flex-end;
+}
+.message-left {
+align-self: flex-start;
+align-items: flex-start;
+}
+.message-sender {
+font-size: 12px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+.message-bubble {
+padding: 12px 18px;
+border: 2px solid #000;
+background: #fff;
+position: relative;
+font-size: 14px;
+}
+.message-right .message-bubble {
+background: #000;
+color: #fff;
+}
+.message-bubble::after {
+content: '';
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;}
+.message-right .message-bubble::after {
+right: -10px;
+top: 10px;
+border-width:10px 0 10px 10px;
+border-color:transparent transparent transparent #000;}
+.message-left .message-bubble::after {
+left: -10px;
+top: 10px;
+border-width: 10px 10px 10px 0;
+border-color: transparent #000 transparent transparent;
+}
+.chat-input-area {
+padding:15px;
+border-top: 3px solid #000;
+display: flex;
+gap: 10px;
+background:#fff;
+}
+.chat-input {
+flex: 1;
+padding: 12px;
+border: 2px solid #000;
+font-size: 14px;
+background: #fff;
+}
+.send-btn {
+padding: 12px 25px;
+border: 2px solid #000;
+background:#000;
+color:#fff;
+cursor: pointer;
+font-weight: bold;
+font-size:14px;}
+.send-btn:hover {
+background:#fff;
+color:#000;}
+::-webkit-scrollbar {
+width: 10px;}
+::-webkit-scrollbar-track {
+background:#fff;
+border: 1px solid #000;}
+::-webkit-scrollbar-thumb {
+background:#000;
+border: 1px solid #000;}
